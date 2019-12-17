@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "debug": "^4.1.1"
+    "debug": "^4.1.1",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
