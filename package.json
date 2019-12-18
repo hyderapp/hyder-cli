@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib bin",
-    "test": "jest"
+    "test": "jest",
+    "cov": "jest --coverage"
   },
   "dependencies": {
     "chalk": "^3.0.0",
+    "commander": "^4.0.1",
     "debug": "^4.1.1",
-    "minimist": "^1.2.0",
     "ora": "^4.0.3"
   },
   "devDependencies": {
