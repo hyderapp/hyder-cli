@@ -1,8 +1,11 @@
 {
-  "name": "hyder-cli",
+  "name": "@hyder/cli",
   "version": "1.0.0",
   "description": "Hyder framework's command line interface",
   "main": "index.js",
+  "bin": {
+    "hyder": "./bin/hyder.js"
+  },
   "scripts": {
     "lint": "eslint lib bin",
     "test": "jest",
