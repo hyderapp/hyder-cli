@@ -31,6 +31,10 @@
     "type": "git",
     "url": "git+https://github.com/hyderapp/hyder-cli.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hyderapp/hyder-cli/issues"
