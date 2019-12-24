@@ -42,3 +42,8 @@ yarn build   # 编译前端资源
 yarn hyder package build  # 打出hyder产品包
 ```
 
+其他命令可参考
+
+```
+yarn hyder --help
+```
