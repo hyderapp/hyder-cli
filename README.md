@@ -13,7 +13,7 @@
 yarn add --dev @hyder/cli
 ```
 
-2. 在`package.json`中添加
+2. 在`package.json`中添加配置
 
 
 ```json
@@ -25,28 +25,20 @@ yarn add --dev @hyder/cli
 
   "hyder": {
     "from": "dist/assets",
-    "to": [
+    "to": {
+      "service": "proxyimg/zmw/hyder-raw/shop",
       "assets": "zmw/hyder-raw/shop",
       "html": "stuff/shop"
-    ]
+    }
   },
 ```
 
 3. 打包
 
 
-根据上述配置应输出文件到 `dist/assets` 目录下
-
-
 ```
-yarn build
-```
-
-
-将`dist/assets` 目录下的文件根据配置打成 hyder 产品包
-
-
-```
-yarn hyder package build  # 
+yarn clean   # 清理文件
+yarn build   # 编译前端资源
+yarn hyder package build  # 打出hyder产品包
 ```
 
