@@ -20,6 +20,7 @@
     "glob": "^7.1.6",
     "lodash.get": "^4.4.2",
     "minimatch": "^3.0.4",
+    "minimist": "^1.2.0",
     "moment": "^2.24.0",
     "ora": "^4.0.3",
     "prompts": "^2.3.0",
