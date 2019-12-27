@@ -81,5 +81,7 @@ hyder package uplaod dist/shop-2.8.10-47ed.zip # 仅上传指定产品包
 hyder rollout list
 hyder rollout update -V 2.8.9-fde0    # 发布指定版本产品包
 hyder rollout delete       # 回滚最近发布
+
+hyder help # 查看帮助
 ```
 
